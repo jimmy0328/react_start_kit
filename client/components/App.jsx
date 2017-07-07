@@ -7,7 +7,7 @@ export default class App extends React.Component {
   render() {
     return (
       <div style={{textAlign: 'center'}}>
-        <RaisedButton label="Default" />
+        <RaisedButton label="Hello World" />
       </div>);
   }
 }
