@@ -1,10 +1,13 @@
 import React from 'react';
+import {RaisedButton} from 'material-ui';
+import injectTapEventPlugin from 'react-tap-event-plugin';
+injectTapEventPlugin();
 
 export default class App extends React.Component {
   render() {
     return (
-     <div style={{textAlign: 'center'}}>
-        <h1>Hello World</h1>
+      <div style={{textAlign: 'center'}}>
+        <RaisedButton label="Default" />
       </div>);
   }
 }
