@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
-import App from './components/App.jsx';
-import DialogExample from './components/DialogExample.jsx';
+import App from './components/App';
+import DialogExample from './components/DialogExample';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 injectTapEventPlugin();
 
